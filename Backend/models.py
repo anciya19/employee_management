@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer,String
 from database import Base
-
+# Employee table
 class Employee(Base):
     
     __tablename__ = "employees_management"
